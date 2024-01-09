@@ -17,6 +17,14 @@ export default function Projects() {
     url: "https://github.com/jpga1/portfolio-site-react",
   };
 
+  const todoListApp = {
+    thumbnail: "./src/assets/to-do-app-image.png",
+    title: "To-do List App",
+    description:
+      "A to-do list application implemented using react and bootstrap.",
+    url: "https://github.com/jpga1/to-do-list-app",
+  };
+
   const calculator = {
     thumbnail: "./src/assets/calculator-image-sample.png",
     title: "Calculator",
@@ -38,6 +46,7 @@ export default function Projects() {
       <h2 className="display-4 mb-5">Projects</h2>
       <ProjectCard {...debianFrontend} />
       <ProjectCard {...portfolioWebpage} />
+      <ProjectCard {...todoListApp} />
       <ProjectCard {...calculator} />
       <ProjectCard {...gpaCalculator} />
     </div>
