@@ -14,11 +14,11 @@ export default function Projects() {
   };
 
   const videoSharingWebpage = {
-    thumbnail: videoSharingWebpageImage,
-    title: "Video Sharing Front-end",
+    thumbnail: "./src/assets/portfolio-site-image.png",
+    title: "Portfolio Webpage",
     description:
-      "A generic video sharing webpage, inspired by youtube.com, that explores bootstrap 4 technologies.",
-    url: "https://github.com/jpga1/video-sharing-webpage",
+      "A portfolio webpage built using react and the bootstrap framework, which showcases web development oriented projects.",
+    url: "https://github.com/jpga1/portfolio-site-react",
   };
 
   const calculator = {
