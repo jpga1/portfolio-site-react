@@ -26,11 +26,11 @@ export default function Projects() {
   };
 
   const calculator = {
-    thumbnail: "./src/assets/calculator-image-sample.png",
+    thumbnail: "./src/assets/calculator-react-image.png",
     title: "Calculator",
     description:
-      "A calculator web application that performs fundamental arthimetic functions.",
-    url: "https://github.com/jpga1/calculator",
+      "A calculator web application, built with react, which performs fundamental arthimetic functions.",
+    url: "https://github.com/jpga1/calculator-react",
   };
 
   const gpaCalculator = {
