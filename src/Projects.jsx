@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard.jsx";
 
 export default function Projects() {
   const debianFrontend = {
-    thumbnail: "./src/assets/debian-front-end-sample-image.png",
+    thumbnail: "/debian-front-end-sample-image.png",
     title: "Debian Mockup Front-end",
     description:
       "A mockup webpage of Debian.org that intends to explore improvements in layout, aesthetics, user-friendliness, and minimalism.",
@@ -10,7 +10,7 @@ export default function Projects() {
   };
 
   const portfolioWebpage = {
-    thumbnail: "./src/assets/portfolio-site-image.png",
+    thumbnail: "/portfolio-site-image.png",
     title: "Portfolio Webpage",
     description:
       "A portfolio webpage built using react and the bootstrap framework, which showcases web development oriented projects.",
@@ -18,7 +18,7 @@ export default function Projects() {
   };
 
   const todoListApp = {
-    thumbnail: "./src/assets/to-do-app-image.png",
+    thumbnail: "/to-do-app-image.png",
     title: "To-do List App",
     description:
       "A to-do list application implemented using react and bootstrap.",
@@ -26,7 +26,7 @@ export default function Projects() {
   };
 
   const calculator = {
-    thumbnail: "./src/assets/calculator-react-image.png",
+    thumbnail: "/calculator-react-image.png",
     title: "Calculator",
     description:
       "A calculator web application, built with react, which performs fundamental arthimetic functions.",
@@ -34,7 +34,7 @@ export default function Projects() {
   };
 
   const gpaCalculator = {
-    thumbnail: "./src/assets/houghton-gpa-calculator-sample-image.png",
+    thumbnail: "/houghton-gpa-calculator-sample-image.png",
     title: "Grade Point Average Calculator",
     description:
       "Calculates the current semester grade point average and overall grade point average based on current semester credits, cummulative credits, and cummulative grade point average data. Credit and grading schemes are based on Houghton University's standards",

@@ -1,8 +1,8 @@
-import bootstrap from "./assets/bootstrap-logo.svg";
-import html from "./assets/html-icon.svg";
-import css from "./assets/css-logo.svg";
-import javascript from "./assets/javascript-icon.svg";
-import git from "./assets/git-icon.svg";
+import bootstrap from "/bootstrap-logo.svg";
+import html from "/html-icon.svg";
+import css from "/css-logo.svg";
+import javascript from "/javascript-icon.svg";
+import git from "/git-icon.svg";
 
 export default function Technologies() {
   return (
