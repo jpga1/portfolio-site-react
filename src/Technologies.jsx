@@ -12,42 +12,30 @@ export default function Technologies() {
 
         <div class="carousel-inner">
           <div class="carousel-item active w-100 mx-auto display-1 p-5">
-            <img
-              class="icon"
-              src="./src/assets/html-icon.svg"
-              alt="The HTML logo"
-            />
+            <img class="icon" src="/html-icon.svg" alt="The HTML logo" />
+          </div>
+          <div class="carousel-item w-100 mx-auto display-1 p-5">
+            <img class="icon" src="/css-logo.svg" alt="The CSS logo" />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
             <img
               class="icon"
-              src="./src/assets/css-logo.svg"
-              alt="The CSS logo"
-            />
-          </div>
-          <div class="carousel-item w-100 mx-auto display-1 p-5">
-            <img
-              class="icon"
-              src="./src/assets/javascript-icon.svg"
+              src="/javascript-icon.svg"
               alt="The JavaScript logo"
             />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
             <img
               class="icon"
-              src="./src/assets/bootstrap-logo.svg"
+              src="/bootstrap-logo.svg"
               alt="The bootstrap logo"
             />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
-            <img
-              class="icon"
-              src="./src/assets/react-icon.svg"
-              alt="The react logo"
-            />
+            <img class="icon" src="/react-icon.svg" alt="The react logo" />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
-            <img class="icon" src="./src/assets/git-icon.svg" alt="Git logo" />
+            <img class="icon" src="/git-icon.svg" alt="Git logo" />
           </div>
         </div>
 
