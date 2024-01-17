@@ -1,9 +1,3 @@
-import bootstrap from "/bootstrap-logo.svg";
-import html from "/html-icon.svg";
-import css from "/css-logo.svg";
-import javascript from "/javascript-icon.svg";
-import git from "/git-icon.svg";
-
 export default function Technologies() {
   return (
     <div class="container-fluid text-center text-white slideshow-container">
@@ -18,19 +12,42 @@ export default function Technologies() {
 
         <div class="carousel-inner">
           <div class="carousel-item active w-100 mx-auto display-1 p-5">
-            <img class="icon" src={html} alt="The HTML logo" />
+            <img
+              class="icon"
+              src="./src/assets/html-icon.svg"
+              alt="The HTML logo"
+            />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
-            <img class="icon" src={css} alt="The CSS logo" />
+            <img
+              class="icon"
+              src="./src/assets/css-logo.svg"
+              alt="The CSS logo"
+            />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
-            <img class="icon" src={javascript} alt="The JavaScript logo" />
+            <img
+              class="icon"
+              src="./src/assets/javascript-icon.svg"
+              alt="The JavaScript logo"
+            />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
-            <img class="icon" src={bootstrap} alt="The bootstrap logo" />
+            <img
+              class="icon"
+              src="./src/assets/bootstrap-logo.svg"
+              alt="The bootstrap logo"
+            />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
-            <img class="icon" src={git} alt="Git logo" />
+            <img
+              class="icon"
+              src="./src/assets/react-icon.svg"
+              alt="The react logo"
+            />
+          </div>
+          <div class="carousel-item w-100 mx-auto display-1 p-5">
+            <img class="icon" src="./src/assets/git-icon.svg" alt="Git logo" />
           </div>
         </div>
 
