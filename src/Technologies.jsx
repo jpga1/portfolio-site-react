@@ -3,6 +3,7 @@ import html from "./assets/html-icon.svg";
 import css from "./assets/css-logo.svg";
 import javascript from "./assets/javascript-icon.svg";
 import git from "./assets/git-icon.svg";
+import react from "./assets/react-icon.svg";
 
 export default function Technologies() {
   return (
@@ -28,6 +29,9 @@ export default function Technologies() {
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
             <img class="icon" src={bootstrap} alt="The bootstrap logo" />
+          </div>
+          <div class="carousel-item w-100 mx-auto display-1 p-5">
+            <img class="icon" src={react} alt="The react logo" />
           </div>
           <div class="carousel-item w-100 mx-auto display-1 p-5">
             <img class="icon" src={git} alt="Git logo" />
