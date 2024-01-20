@@ -35,9 +35,10 @@ export default function Projects() {
 
   const gpaCalculator = {
     thumbnail: "./src/assets/houghton-gpa-calculator-sample-image.png",
-    title: "Grade Point Average Calculator",
+    title:
+      "Volunteer Project for Houghton University: Grade Point Average Calculator",
     description:
-      "Calculates the current semester grade point average and overall grade point average based on current semester credits, cummulative credits, and cummulative grade point average data. Credit and grading schemes are based on Houghton University's standards",
+      "A grade point average calculator, compatible with Houghton University's grading scheme.",
     url: "https://github.com/jpga1/houghton-gpa-calculator",
   };
 
