@@ -21,14 +21,14 @@ header {
 
 /* set image dimensions relative to parent element */
 .project-thumbnail {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* set project image containers to a fixed width */
 .project-image-container {
-  width: 375px;
+  max-width: 375px;
 }
 
 .icon {
-  width: 20%;
+  max-width: 20%;
 }
