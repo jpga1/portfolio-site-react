@@ -1,10 +1,10 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 1rem;
 
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ header {
   max-width: 100%;
 }
 
-/* set project image containers to a fixed width */
+/* set a maximum width */
 .project-image-container {
   max-width: 375px;
 }
