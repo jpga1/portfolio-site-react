@@ -1,10 +1,10 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 1rem;
 
   display: flex;
   flex-direction: column;
@@ -21,14 +21,14 @@ header {
 
 /* set image dimensions relative to parent element */
 .project-thumbnail {
-  width: 100%;
+  max-width: 100%;
 }
 
-/* set project image containers to a fixed width */
+/* set a maximum width */
 .project-image-container {
-  width: 375px;
+  max-width: 375px;
 }
 
 .icon {
-  width: 20%;
+  max-width: 20%;
 }
