@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div id="about" className="container-fluid p-5 text-white text-center">
+    <div id="about" className="p-5 text-white text-center">
       <h2>About</h2>
       <p className="font-italic w-50 mx-auto">
         Hello, I'm Josh Kho and my goal is to develop quality front-ends. I
